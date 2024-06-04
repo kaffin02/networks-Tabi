@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2024-05-25T02:56:34.967130716Z",
+  "genesis_time": "2024-06-04T03:31:36.35062Z",
   "chain_id": "tabi_9789-1",
   "initial_height": "1",
   "consensus_params": {
@@ -360,6 +360,12 @@
         "recv_sequences": [],
         "ack_sequences": [],
         "next_channel_sequence": "0"
+      }
+    },
+    "limiter": {
+      "params": {
+        "enabled": false,
+        "allow_list": []
       }
     },
     "mint": {
