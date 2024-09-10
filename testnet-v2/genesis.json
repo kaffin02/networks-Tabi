@@ -1,0 +1,451 @@
+{
+  "genesis_time": "2024-09-07T13:12:38.82528425Z",
+  "chain_id": "tabi_9789-2",
+  "initial_height": "1",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "2048000",
+      "max_gas": "40000000",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age_num_blocks": "100000",
+      "max_age_duration": "172800000000000",
+      "max_bytes": "1048576"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    },
+    "version": {}
+  },
+  "app_hash": "",
+  "app_state": {
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "@type": "/ethermint.types.v1.EthAccount",
+          "base_account": {
+            "address": "tabis1fmyzk2pdkhy4lch2nyzjrm8ulak4gznl752pdv",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        }
+      ]
+    },
+    "authz": {
+      "authorization": []
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [
+          {
+            "denom": "atabi",
+            "enabled": true
+          },
+          {
+            "denom": "avetabi",
+            "enabled": false
+          }
+        ],
+        "default_send_enabled": false
+      },
+      "balances": [
+        {
+          "address": "tabis1fmyzk2pdkhy4lch2nyzjrm8ulak4gznl752pdv",
+          "coins": [
+            {
+              "denom": "atabi",
+              "amount": "6000000000000000000000000000"
+            }
+          ]
+        }
+      ],
+      "supply": [
+        {
+          "denom": "atabi",
+          "amount": "6000000000000000000000000000"
+        }
+      ],
+      "denom_metadata": []
+    },
+    "capability": {
+      "index": "1",
+      "owners": []
+    },
+    "captains": {
+      "params": {
+        "captains_total_count": "200000",
+        "minimum_power_on_period": "6",
+        "maximum_power_on_period": "24",
+        "captains_constant": "9000000.000000000000000000",
+        "halving_era_coefficient": "1.000000000000000000",
+        "tech_progress_coefficient_cardinality": "1.600000000000000000",
+        "current_sale_level": "1",
+        "authorized_members": ["tabis1fmyzk2pdkhy4lch2nyzjrm8ulak4gznl752pdv"]
+      },
+      "base_state": {
+        "epoch_id": "1",
+        "is_epoch_end": false,
+        "next_node_sequence": "1",
+        "global_claimed_emission": "0.000000000000000000",
+        "report_digest": null,
+        "is_stand_by": true
+      },
+      "divisions": [
+        {
+          "id": "9b95d0a7ad01100dc65a072f4d27e7d44bfbaa2324ea3524dc3594f546163b98",
+          "level": "1",
+          "initial_supply": "40000",
+          "sold_count": "0",
+          "total_count": "0",
+          "computing_power_lower_bound": "2000",
+          "computing_power_upper_bound": "9999"
+        },
+        {
+          "id": "9a8d667b9465ae97e645ea593204606d933ea6f15f19ba9014ffb349702086b0",
+          "level": "2",
+          "initial_supply": "60000",
+          "sold_count": "0",
+          "total_count": "0",
+          "computing_power_lower_bound": "10000",
+          "computing_power_upper_bound": "39999"
+        },
+        {
+          "id": "b8a333d13c69331a6c53c7b673baa59663cb92f176feceb93452675b62ffe231",
+          "level": "3",
+          "initial_supply": "70000",
+          "sold_count": "0",
+          "total_count": "0",
+          "computing_power_lower_bound": "40000",
+          "computing_power_upper_bound": "159999"
+        },
+        {
+          "id": "fba0119e02e1538476a1dade91e505a389b9a60b3cda9c961f43a3e3e677e7b7",
+          "level": "4",
+          "initial_supply": "20000",
+          "sold_count": "0",
+          "total_count": "0",
+          "computing_power_lower_bound": "160000",
+          "computing_power_upper_bound": "959999"
+        },
+        {
+          "id": "4f66843af7f6d2ff4565946d141aa201eabe213e19dd8b00a283a632712d79b0",
+          "level": "5",
+          "initial_supply": "10000",
+          "sold_count": "0",
+          "total_count": "0",
+          "computing_power_lower_bound": "960000",
+          "computing_power_upper_bound": "18446744073709551615"
+        }
+      ],
+      "nodes": [],
+      "epoches_emission": [],
+      "nodes_claimed_emission": [],
+      "nodes_cumulative_emission": [],
+      "globals_pledge": [],
+      "owners_pledge": [],
+      "owners_claimable_computing_power": [],
+      "globals_computing_power": [],
+      "nodes_computing_power": [],
+      "batches": []
+    },
+    "claims": {
+      "params": {
+        "enable_claims": true,
+        "claims_denom": "avetabi"
+      }
+    },
+    "crisis": {
+      "constant_fee": {
+        "denom": "atabi",
+        "amount": "1000000000000000000000"
+      }
+    },
+    "distribution": {
+      "params": {
+        "community_tax": "0.020000000000000000",
+        "base_proposer_reward": "0.000000000000000000",
+        "bonus_proposer_reward": "0.000000000000000000",
+        "withdraw_addr_enabled": true
+      },
+      "fee_pool": {
+        "community_pool": []
+      },
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "evm": {
+      "accounts": [],
+      "params": {
+        "evm_denom": "atabi",
+        "enable_create": true,
+        "enable_call": true,
+        "extra_eips": [],
+        "chain_config": {
+          "homestead_block": "0",
+          "dao_fork_block": "0",
+          "dao_fork_support": true,
+          "eip150_block": "0",
+          "eip150_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "eip155_block": "0",
+          "eip158_block": "0",
+          "byzantium_block": "0",
+          "constantinople_block": "0",
+          "petersburg_block": "0",
+          "istanbul_block": "0",
+          "muir_glacier_block": "0",
+          "berlin_block": "0",
+          "london_block": "0",
+          "arrow_glacier_block": "0",
+          "gray_glacier_block": "0",
+          "merge_netsplit_block": "0",
+          "shanghai_block": "0",
+          "cancun_block": "0"
+        },
+        "allow_unprotected_txs": false
+      }
+    },
+    "feegrant": {
+      "allowances": []
+    },
+    "feemarket": {
+      "params": {
+        "no_base_fee": false,
+        "base_fee_change_denominator": 8,
+        "elasticity_multiplier": 2,
+        "enable_height": "0",
+        "base_fee": "2000000000",
+        "min_gas_price": "2000000000",
+        "min_gas_multiplier": "0.500000000000000000"
+      },
+      "block_gas": "0"
+    },
+    "genutil": {
+      "gen_txs": [
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "node0",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "tabis1fmyzk2pdkhy4lch2nyzjrm8ulak4gznl752pdv",
+                "validator_address": "tabisvaloper1fmyzk2pdkhy4lch2nyzjrm8ulak4gznlwmyvcg",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "Zp3PM6eITD0l8zi925CsjSxaqXdphK0WU1lN4juMl8I="
+                },
+                "value": {
+                  "denom": "atabi",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "3fccc06d217b656a36adde1f9cc588b130e1df3e@172.31.23.5:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A/x+jZnymvRDT8ue0SucpRJevGHt+bc8hScxBSDP0VO6"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "atabi",
+                  "amount": "2100000000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "EhtcbvB4jaaheb4XPHoLPmHZjDrcghfVLcnixjuzo3Vcq0U/lrNqBbxmpTeGyIyqPUenXlDvYi+giVuYG+N60gA="
+          ]
+        }
+      ]
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": [],
+      "votes": [],
+      "proposals": [],
+      "deposit_params": {
+        "min_deposit": [
+          {
+            "denom": "atabi",
+            "amount": "10000000000000000000"
+          }
+        ],
+        "max_deposit_period": "90s"
+      },
+      "voting_params": {
+        "voting_period": "90s"
+      },
+      "tally_params": {
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.334000000000000000"
+      }
+    },
+    "ibc": {
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "params": {
+          "allowed_clients": [
+            "06-solomachine",
+            "07-tendermint"
+          ]
+        },
+        "create_localhost": false,
+        "next_client_sequence": "0"
+      },
+      "connection_genesis": {
+        "connections": [],
+        "client_connection_paths": [],
+        "next_connection_sequence": "0",
+        "params": {
+          "max_expected_time_per_block": "30000000000"
+        }
+      },
+      "channel_genesis": {
+        "channels": [],
+        "acknowledgements": [],
+        "commitments": [],
+        "receipts": [],
+        "send_sequences": [],
+        "recv_sequences": [],
+        "ack_sequences": [],
+        "next_channel_sequence": "0"
+      }
+    },
+    "limiter": {
+      "params": {
+        "enabled": false,
+        "allow_list": []
+      }
+    },
+    "mint": {
+      "minter": {
+        "inflation": "0.030000000000000000",
+        "annual_provisions": "300000000000000000000000000"
+      },
+      "params": {
+        "mint_denom": "atabi",
+        "inflation_rate_change": "0.002000000000000000",
+        "inflation_max": "0.050000000000000000",
+        "inflation_min": "0.030000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "10519200"
+      }
+    },
+    "params": null,
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "10000",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600s",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.000000000000000000"
+      },
+      "signing_infos": [],
+      "missed_blocks": []
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "90s",
+        "max_validators": 21,
+        "max_entries": 7,
+        "historical_entries": 10000,
+        "bond_denom": "atabi",
+        "min_commission_rate": "0.050000000000000000"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": [],
+      "validators": [],
+      "delegations": [],
+      "unbonding_delegations": [],
+      "redelegations": [],
+      "exported": false
+    },
+    "tokenconvert": {
+      "voucher_sequence": "1",
+      "strategies": [
+        {
+          "name": "instant",
+          "period": "0",
+          "conversion_rate": "0.250000000000000000"
+        },
+        {
+          "name": "90days",
+          "period": "7776000",
+          "conversion_rate": "0.500000000000000000"
+        },
+        {
+          "name": "180days",
+          "period": "15552000",
+          "conversion_rate": "1.000000000000000000"
+        }
+      ],
+      "vouchers": []
+    },
+    "transfer": {
+      "port_id": "transfer",
+      "denom_traces": [],
+      "params": {
+        "send_enabled": true,
+        "receive_enabled": true
+      }
+    },
+    "upgrade": {},
+    "vesting": {}
+  }
+}
