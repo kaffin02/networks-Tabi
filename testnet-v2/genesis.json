@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2024-09-10T13:08:01.101961907Z",
+  "genesis_time": "2024-09-20T08:56:21.260959029Z",
   "chain_id": "tabi_9788-2",
   "initial_height": "1",
   "consensus_params": {
@@ -34,7 +34,7 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "tabis1p6ywwqe370a6drv2s2ld9ev4uw7m7tsf78z7sy",
+            "address": "tabis1kmrjg6ecll7xmlkc4yvqvasy3wwgwfn5q55dh0",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -62,7 +62,7 @@
       },
       "balances": [
         {
-          "address": "tabis1p6ywwqe370a6drv2s2ld9ev4uw7m7tsf78z7sy",
+          "address": "tabis1kmrjg6ecll7xmlkc4yvqvasy3wwgwfn5q55dh0",
           "coins": [
             {
               "denom": "atabi",
@@ -93,7 +93,7 @@
         "tech_progress_coefficient_cardinality": "1.600000000000000000",
         "current_sale_level": "1",
         "authorized_members": [
-          "tabis1m6m3mt8ztwducay0qu9zu36uzgk47m62qhdzak"
+          "tabis1kmrjg6ecll7xmlkc4yvqvasy3wwgwfn5q55dh0"
         ]
       },
       "base_state": {
@@ -262,11 +262,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "tabis1p6ywwqe370a6drv2s2ld9ev4uw7m7tsf78z7sy",
-                "validator_address": "tabisvaloper1p6ywwqe370a6drv2s2ld9ev4uw7m7tsfwgvn9q",
+                "delegator_address": "tabis1kmrjg6ecll7xmlkc4yvqvasy3wwgwfn5q55dh0",
+                "validator_address": "tabisvaloper1kmrjg6ecll7xmlkc4yvqvasy3wwgwfn5sm6qzt",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "L4UMzIPR2q9n9a9rXX0MOVpVYG7B4ntLtIWwmplUZ48="
+                  "key": "sbEtM/bWBwwqaXNX9fIh6A+3f+XP/PigZDkJXOJuTFk="
                 },
                 "value": {
                   "denom": "atabi",
@@ -274,7 +274,7 @@
                 }
               }
             ],
-            "memo": "8d2cdfc8732e6121e735ccf442d625b45df2ba2a@172.31.23.5:26656",
+            "memo": "f9db4db84c51971cd648622c95d6456239954375@172.31.23.5:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -284,7 +284,7 @@
               {
                 "public_key": {
                   "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
-                  "key": "A5uWA43S6ayVKJSH4Z5adkBFC10uYI8l27WvlvuOtVPw"
+                  "key": "A3ne5zpRuiT+pRWj7OCvTTOQzZcd50yCf5uZTJdq6acp"
                 },
                 "mode_info": {
                   "single": {
@@ -308,7 +308,7 @@
             "tip": null
           },
           "signatures": [
-            "OUdV48gV0XP+GDBqozR2ZGTKxD4Kjrpnm1Snve3T+ykHGtW9c5PDnE7CmZZfR++CuDBC3FVTfv064fxrZ01QxwE="
+            "m8JI3SEu3fBgeXtkx0lYFUpnwpyLaD/ZYFYmy06MIkAmVi7Iv6MImozQi8KxQScpHAafhdOrZdgFNLxd/4el0QE="
           ]
         }
       ]
@@ -451,4 +451,3 @@
     "vesting": {}
   }
 }
-
